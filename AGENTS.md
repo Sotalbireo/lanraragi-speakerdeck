@@ -1,0 +1,1 @@
+Plugin documents: [https://sugoi.gitbook.io/lanraragi/plugin-docs/index](https://sugoi.gitbook.io/lanraragi/plugin-docs/index)

@@ -1,0 +1,10 @@
+name: Perl tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    container: perl:5.36
+    steps:
+      - uses: actions/checkout@v4
+      - run: cpanm --notest --installdeps .
+      - run: prove -Ilib -r t
